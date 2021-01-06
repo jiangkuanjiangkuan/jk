@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JPress，一个类似WordPress的开源国产框架，更轻更快！</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bl-css.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="aos/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="bl-header container-fluid">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bl-nav">
+                <a class="nav-prand" href="bl-first-index.html">JPress</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a href="bl-first-index.html">首页 <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="bl-aritical-list.html">文章</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="bl-about.html">关于</a>
+                        </li>
+                    </ul>
+                </div>
+                <button type="button" class="btn btn-outline-light ">下载源码</button>
+            </nav>
+        </div>
+    </div>
+    <div class="bl-bgclor container-fluid">
+        <div class="bl-banner container">
+            <p>JPress，开源，国产，更轻，更快。</p>
+            <div class="jpress-img" data-aos="fade-up"><img src="img/jpress-banner.png" /></div>
+        </div>
+    </div>
+
+    <!--<div class="container bl-card">-->
+        <!--<h3 class="bl-card-title">我们的优势</h3>-->
+        <!--<div class=" card-group bl-card-body">-->
+            <!--<div class="card card-body-item">-->
+                <!--<div class="item-icon">-->
+                    <!--<i class="fa fa-paper-plane-o fa-4x align-middle" aria-hidden="true"></i>-->
+                <!--</div>-->
+                <!--<div class="card-body item-body item-body">-->
+                    <!--<h3 class="card-title">轻</h3>-->
+                    <!--<p class="card-text"><small class="text-muted">轻到只有8张数据表，却能实现WordPress的几乎所有功能</small></p>-->
+                <!--</div>-->
+            <!--</div>-->
+
+            <!--<div class="card card-body-item">-->
+                <!--<div class="item-icon">-->
+                    <!--<i class="fa fa-heart-o fa-4x align-middle" aria-hidden="true"></i>-->
+                <!--</div>-->
+                <!--<div class="card-body item-body item-body">-->
+                    <!--<h3 class="card-title">快</h3>-->
+                    <!--<p class="card-text"><small class="text-muted">无论多么复杂的页面，JPress响应几乎在10毫秒内</small></p>-->
+                <!--</div>-->
+            <!--</div>-->
+
+            <!--<div class="card card-body-item">-->
+                <!--<div class="item-icon">-->
+                    <!--<i class="fa fa-dribbble fa-4x align-middle" aria-hidden="true"></i>-->
+                <!--</div>-->
+                <!--<div class="card-body item-body item-body">-->
+                    <!--<h3 class="card-title">灵活</h3>-->
+                    <!--<p class="card-text"><small class="text-muted">JPress提出的“模板即模型”的概念，几乎可以用来做任何类型的网站。</small></p>-->
+                <!--</div>-->
+            <!--</div>-->
+
+            <!--<div class="card card-body-item">-->
+                <!--<div class="item-icon">-->
+                    <!--<i class="fa fa-hand-rock-o fa-4x align-middle" aria-hidden="true"></i>-->
+                <!--</div>-->
+                <!--<div class="card-body item-body item-body">-->
+                    <!--<h3 class="card-title">国产</h3>-->
+                    <!--<p class="card-text"><small class="text-muted">JPress天生融合了微信公众号，更符合国人需求。</small></p>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <div class="container bl-card">
+        <h3 class="bl-card-title">产品介绍</h3>
+        <div class="row product-box-body">
+            <div class="col-md-6 col-sm-12 product-box-left product-box-image" data-aos="zoom-in">
+                <img class="card-img-left" src="img/jp-light.jpg" alt="Card image cap" />
+            </div>
+            <div class="col-md-6 col-sm-12 product-box-right product-box-content" data-aos="fade-left">
+                <h3 class="card-title">轻</h3>
+                <p>功能轻、产品轻、代码轻</p>
+                <p>JPress 使用 Java8 开发，基于流行的JFinal和Jboot框架。整个JPress只有文章和页面两个模块。同时，产品的一切交互、我们使用了 “用到才能看到” 的设计理念，使之一切看起来是那么的轻和自然。
+                </p>
+            </div>
+        </div>
+
+        <div class="row product-box-body bl-active">
+            <div class="col-md-6 col-sm-12 product-box-left product-box-content" data-aos="fade-left" data-aos-offset="100">
+                <h3 class="card-title">快</h3>
+                <p>我们非常重视代码质量和运行效率</p>
+                <p>JPress内置了多种快速的缓存方案，不仅如此，JPress还支持阿里云、腾讯云、七牛、又拍云等CDN做加速。同时，JPress支持微服务支持分布式部署，通过微服务化能支撑任何流量的大型分布式产品。
+                </p>
+            </div>
+            <div class="col-md-6 col-sm-12 product-box-right product-box-image" data-aos="zoom-in" data-aos-offset="100">
+                <img class="card-img-left" src="img/jp-fast.jpg" alt="Card image cap" />
+            </div>
+        </div>
+
+        <div class="row product-box-body">
+            <div class="col-md-6 col-sm-12 product-box-left product-box-image" data-aos="zoom-in">
+                <img class="card-img-left" src="img/jp-module.jpg" alt="Card image cap" />
+            </div>
+            <div class="col-md-6 col-sm-12 product-box-right product-box-content" data-aos="fade-left">
+                <h3 class="card-title">模块化</h3>
+                <p>JPress 使用了模块化的设计思想。</p>
+                <p>目前JPress已经内置的文章和页面其实是两个模块，可以移除和新增其他模块，因此，可以通过新增模块的方式，使用JPress来做博客、论坛、问答社区，商城等几乎可以用来做任何类型的网站。</p>
+            </div>
+        </div>
+
+        <div class="row product-box-body bl-active">
+            <div class="col-md-6 col-sm-12 product-box-left product-box-content" data-aos="fade-left">
+                <h3 class="card-title">文档丰富</h3>
+                <p class="card-text">我们非常重视文档</p>
+                <p class="card-text">我们对文档的重视，甚至高于产品和代码，我们希望，任何人都能快速的使用JPress，剩余出更多的时间来陪伴自己的孩子、父母和爱人。</p>
+
+            </div>
+            <div class="col-md-6 col-sm-12 product-box-right product-box-image" data-aos="zoom-in">
+                <img class="card-img-left" src="img/jp-document.jpg" alt="Card image cap" />
+
+            </div>
+        </div>
+
+        <div class="row product-box-body">
+            <div class="col-md-6 col-sm-12 product-box-left product-box-image" data-aos="zoom-in">
+                <img class="card-img-left" src="img/jp-local.jpg" alt="Card image cap" />
+            </div>
+            <div class="col-md-6 col-sm-12 product-box-right product-box-content" data-aos="fade-left">
+                <h3 class="card-title">本地化</h3>
+                <p>因为本地而生</p>
+                <p>JPress充分利用中国互联网生态、原生支持和微信公众号、小程序对接。 同时融合了 QQ邮箱、163邮箱等作为邮件发送服务器、集成了阿里云的阿里大于等作为短信发送服务。 在未来，JPress会支持越来越多的中国互联网产品整合功能。</p>
+            </div>
+        </div>
+        <div class="row product-box-body bl-active">
+            <div class="col-md-6 col-sm-12 product-box-left product-box-content" data-aos="fade-left">
+                <h3 class="card-title">开源</h3>
+                <p class="card-text">基于LGPL开源协议</p>
+                <p class="card-text">LGPL开源协议比WordPress采用的GPL更加宽松，也意味着你可以使用JPress来做商业网站，页面模板不用保留 JPress 版权相关文字。</p>
+            </div>
+            <div class="col-md-6 col-sm-12 product-box-right product-box-image" data-aos="zoom-in">
+                <img class="card-img-left" src="img/jp-opensource.jpg" alt="Card image cap" />
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h3 class="bl-card-title">我们的团队</h3>
+        <div class="card-deck text-center" data-aos="fade-left">
+            <div class="card">
+                <div class="card-img-top"><img src="img/default-column-img.jpg" alt=""></div>
+                <div class="card-body">
+                    <h3 class="card-title">Michael</h3>
+                    <p class="card-text"><small class="text-muted">JPress开源作者</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img-top"><img src="img/default-column-img.jpg" alt=""></div>
+                <div class="card-body">
+                    <h3 class="card-title">Jean</h3>
+                    <p class="card-text"><small class="text-muted">UI设计师，插画师</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img-top"><img src="img/default-column-img.jpg" alt=""></div>
+                <div class="card-body">
+                    <h3 class="card-title">tony</h3>
+                    <p class="card-text"><small class="text-muted">JPress产品经理</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img-top"><img src="img/default-column-img.jpg" alt=""></div>
+                <div class="card-body">
+                    <h3 class="card-title">Jeey</h3>
+                    <p class="card-text"><small class="text-muted">JPress运营总监</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h3 class="bl-card-title">JPress的用户是这样说的</h3>
+        <div class="card-deck" data-aos="fade-right">
+            <div class="card">
+                <div class="card-body">
+                    "这是我在创业过程中用过最好的产品，没有之一。其提供的模块化和微信插件、方便我们团队进行快速的开发"
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">张宾</h3>
+                    <p class="card-text"><small class="text-muted">创业公司CEO</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    "JPress源码的提供了良好的中文注释、同时代码极度简单、方便我们小白学习和使用，我也得到了快速的成长。"
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">李丽</h3>
+                    <p class="card-text"><small class="text-muted">大学生</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    "刚开始接触JPress的时候，我其实是在找WordPress的代替版本，终于遇见了JPress和认识了海哥"
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">啊峰</h3>
+                    <p class="card-text"><small class="text-muted">上市公司技术总监</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    "JPress可以用来和微信公众号做链接，方便了粉丝和网站进行互动，近期也开始运营小程序，到时候还离不开JPress"
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Jeey</h3>
+                    <p class="card-text"><small class="text-muted">上市公司运营总监</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bl-footer container-fluid">
+        <div class="container">
+            <ul class="bl-footer-list">
+                <li class="bl-footer-item">
+                    <a href="#">帮助</a>
+                </li>
+                <li class="bl-footer-item">
+                    <a href="#">隐私</a>
+                </li>
+                <li class="bl-footer-item">
+                    <a href="#">条款</a>
+                </li>
+            </ul>
+            <div class="copyright">copyright @ 2018 JPress设计部出品</div>
+        </div>
+    </div>
+<script src="jquery/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="aos/dist/aos.js"></script>
+<script>
+    AOS. init();
+</script >
+</body>
+</html>
